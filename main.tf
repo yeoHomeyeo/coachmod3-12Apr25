@@ -2,10 +2,11 @@ locals {
   prefix = "ce9-chrisy-coach17"
 }
 
-resource "aws_ecr_repository" "ecr" {
-  name         = "${local.prefix}-ecr"
-  force_delete = true
-}
+# ECR repository should be created prior to this workflow
+# resource "aws_ecr_repository" "ecr" {
+#   name         = "${local.prefix}-ecr"
+#   force_delete = true
+# }
 
 module "ecs" {
   source  = "terraform-aws-modules/ecs/aws"
