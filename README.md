@@ -4,6 +4,14 @@
 
 
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## Activity Overview
 - In this activity, you would be required to create your infra using Terraform, followed by deploying your sample app (Covered in Lessons 3.3 & 3.4) using Github Actions to ECS & ECR respectively.
